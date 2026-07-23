@@ -1,0 +1,25 @@
+{
+  "appId": "com.spendify.app",
+  "appName": "Spendify",
+  "webDir": "www",
+  "bundledWebRuntime": false,
+  "backgroundColor": "#ffffff",
+  "plugins": {
+    "LocalNotifications": {
+      "smallIcon": "ic_stat_notify",
+      "iconColor": "#2f6a4f"
+    },
+    "SplashScreen": {
+      "launchShowDuration": 800,
+      "backgroundColor": "#ffffff",
+      "androidScaleType": "CENTER_CROP",
+      "showSpinner": false
+    }
+  },
+  "android": {
+    "allowMixedContent": false
+  },
+  "ios": {
+    "contentInset": "automatic"
+  }
+}

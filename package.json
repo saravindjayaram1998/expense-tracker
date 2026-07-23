@@ -1,0 +1,23 @@
+{
+  "name": "spendify",
+  "version": "1.0.0",
+  "description": "Spendify — personal & shared expense tracker",
+  "private": true,
+  "scripts": {
+    "android:add": "npx cap add android",
+    "ios:add": "npx cap add ios",
+    "sync": "npx cap sync",
+    "open:android": "npx cap open android",
+    "open:ios": "npx cap open ios"
+  },
+  "dependencies": {
+    "@capacitor/android": "^6.1.0",
+    "@capacitor/core": "^6.1.0",
+    "@capacitor/ios": "^6.1.0",
+    "@capacitor/local-notifications": "^6.1.0",
+    "@capacitor/splash-screen": "^6.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^6.1.0"
+  }
+}
